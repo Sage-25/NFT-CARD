@@ -1,0 +1,89 @@
+.main-component {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.image-component {
+  width: 20rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-section {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.header-section:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.body-section {
+  color: hsl(215, 51%, 70%);
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.eth-align {
+  display: flex;
+  align-items: center;
+}
+
+.eth-copy {
+  font-weight: 600;
+  margin-left: 0.5rem;
+  color: hsl(178, 100%, 50%);
+}
+
+.clock-align {
+  display: flex;
+  align-items: center;
+}
+
+.clock-copy {
+  margin-left: 0.5rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.divider {
+  border: 0.01rem solid hsl(215, 32%, 27%);
+}
+
+.section-3 {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.avatar {
+  width: 2rem;
+  border: 0.1rem solid white;
+  border-radius: 50rem;
+  margin-right: 1rem;
+}
+
+.body-1 {
+  color: hsl(215, 51%, 70%);
+}
+
+.body-main {
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.body-main:hover {
+  color: hsl(178, 100%, 50%);
+}
